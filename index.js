@@ -12,10 +12,11 @@ const options = {
     path: `/users/${username}/events`,
     method: 'GET',
     headers: {
-        'User-Agent': 'node.js', // GitHub API için zorunlu
+        'User-Agent': 'node.js',
         'Accept': 'application/vnd.github.v3+json'
     }
 };
+
 
 const req = https.request(options, (res) => {
     let data = '';
