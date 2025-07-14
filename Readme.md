@@ -19,5 +19,6 @@ This project uses the [GitHub Public API](https://docs.github.com/en/rest/activi
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/YusufOztoprak/github-activity-tracker.git
-cd github-activity-tracker
+git clone https://github.com/YusufOztoprak/github-activity-cli.git
+cd github-activity-cli
+npm install
